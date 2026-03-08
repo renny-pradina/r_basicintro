@@ -1,7 +1,7 @@
 library(readxl)
 
 probsti_e <- read_excel("Documents/.../Data Kelas PROBSTI E.xlsx",
-col_types = c("skip", "skip", "text",
+col_types = c("skip", "text",
 "text", "text", "text"))
 
 View(probsti_e)
