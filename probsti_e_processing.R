@@ -1,6 +1,6 @@
 library(readxl)
 
-probsti_e <- read_excel("Documents/ITS/Pengajaran/PROBSTI/Genap 2025-2026/Data Kelas PROBSTI E.xlsx",
+probsti_e <- read_excel("Documents/.../Data Kelas PROBSTI E.xlsx",
 col_types = c("skip", "skip", "text",
 "text", "text", "text"))
 
